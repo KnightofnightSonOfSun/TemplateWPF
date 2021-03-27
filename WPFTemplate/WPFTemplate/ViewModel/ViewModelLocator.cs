@@ -41,10 +41,13 @@ namespace WPFTemplate.ViewModel
             ////    // Create run time view services and models
             ////    SimpleIoc.Default.Register<IDataService, DataService>();
             ////}
-
+            #region ViewModel Register
             SimpleIoc.Default.Register<MainViewModel>();
-        }
+            SimpleIoc.Default.Register<LoginViewModel>();
 
+            #endregion
+        }
+        #region ViewModel Initialze
         public MainViewModel Main
         {
             get
@@ -52,7 +55,15 @@ namespace WPFTemplate.ViewModel
                 return ServiceLocator.Current.GetInstance<MainViewModel>();
             }
         }
-        
+
+        public LoginViewModel LoginView
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<LoginViewModel>();
+            }
+        }
+        #endregion
         public static void Cleanup()
         {
             // TODO Clear the ViewModels
