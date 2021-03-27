@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTemplate", "WPFTemplate\WPFTemplate.csproj", "{12E1423E-CF2B-4DFE-9403-166F75F35617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTemplate.RestSharpAPI", "WPFTemplate.RestSharpAPI\WPFTemplate.RestSharpAPI.csproj", "{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTemplate.SocketAPI", "WPFTemplate.SocketAPI\WPFTemplate.SocketAPI.csproj", "{191223E9-1598-4239-B434-FB1AC175D4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTemplate.Common", "WPFTemplate.Common\WPFTemplate.Common.csproj", "{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTemplate.CommonControls", "WPFTemplate.CommonControls\WPFTemplate.CommonControls.csproj", "{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppVeyor|Any CPU = AppVeyor|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E1423E-CF2B-4DFE-9403-166F75F35617}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{12E1423E-CF2B-4DFE-9403-166F75F35617}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{12E1423E-CF2B-4DFE-9403-166F75F35617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E1423E-CF2B-4DFE-9403-166F75F35617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E1423E-CF2B-4DFE-9403-166F75F35617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E1423E-CF2B-4DFE-9403-166F75F35617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF0E5B-2AE5-410E-B7C3-CA4ACBA5642B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191223E9-1598-4239-B434-FB1AC175D4E9}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{191223E9-1598-4239-B434-FB1AC175D4E9}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{191223E9-1598-4239-B434-FB1AC175D4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191223E9-1598-4239-B434-FB1AC175D4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191223E9-1598-4239-B434-FB1AC175D4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191223E9-1598-4239-B434-FB1AC175D4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BDDE05-67B7-4F4F-BA80-65D0C23F3125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD3BE50-D85E-4A92-9967-1D90AEB7F076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F99930B6-832A-4D84-9293-1F7A61E319DA}
+	EndGlobalSection
+EndGlobal

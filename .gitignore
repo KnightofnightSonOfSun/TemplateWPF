@@ -1,0 +1,14 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/WPFTemplate/WPFTemplate/obj/Debug
+/WPFTemplate/WPFTemplate/bin/Debug
+/WPFTemplate/WPFTemplate.Common/obj/Debug
+/WPFTemplate/WPFTemplate.Common/bin/Debug
+/WPFTemplate/WPFTemplate.CommonControls/obj/Debug
+/WPFTemplate/WPFTemplate.CommonControls/bin/Debug
+/WPFTemplate/WPFTemplate.RestSharpAPI/obj/Debug
+/WPFTemplate/WPFTemplate.RestSharpAPI/bin/Debug
+/WPFTemplate/WPFTemplate.SocketAPI/obj/Debug
+/WPFTemplate/WPFTemplate.SocketAPI/bin/Debug
